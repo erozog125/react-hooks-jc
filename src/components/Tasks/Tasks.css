@@ -1,0 +1,43 @@
+.tasks {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 80%;
+  margin: 20px 0;
+  border: 1px solid #444;
+}
+
+.input-task {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 40%;
+  margin-bottom: 20px;
+  font-size: 16px;
+} 
+
+li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 18px;
+  color: #eee;
+  font-size: 1.4rem;
+}
+
+li.inactive {
+  text-decoration: line-through;
+  color: #ee3d06;
+}
+
+li.active {
+  color: #77f508;
+  text-decoration: none;
+}

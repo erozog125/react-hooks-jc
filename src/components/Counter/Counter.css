@@ -1,0 +1,30 @@
+.counter {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.controllers {
+  display: flex;
+  gap: 1rem;
+}
+
+.controllers > button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+  width: 8rem;
+}
+
+.controllers > button:hover {
+  background-color: #555;
+  color: #0ae90a;
+} 

@@ -1,0 +1,18 @@
+button {
+  margin-top: 2rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+  cursor: pointer;
+  width: 8rem;
+}
+
+.back {
+  width: 100vw;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
